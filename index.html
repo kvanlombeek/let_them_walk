@@ -21,7 +21,7 @@
 
 <p>
 <a class="waves-effect waves-light btn" onclick="next_step()">Let them walk!</a>
-<span id="loop_number">0</span>
+<!-- <span id="loop_number">0</span> -->
 </p>
 </body>
 </html>
@@ -236,7 +236,7 @@ world.toString();
 var counter = 0
 function next_step(){
 	counter += 1 
-	$("#loop_number").html(counter)
+	//$("#loop_number").html(counter)
 	$("#bord").html(" ");
 	world.turn();
 	world.toString();
